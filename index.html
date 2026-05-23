@@ -1,417 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyPortfolio</title>
+    <meta name="description" content="Uppara Uday Sagar portfolio showcasing data analytics, machine learning, ServiceNow automation, dashboards, and product-focused engineering work.">
+    <title>Uppara Uday Sagar | Data Analytics Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&family=Syne:wght@500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&family=Lora:wght@400;700&family=Montserrat:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <!-- model-viewer removed -->
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
-
 <body>
-    <div class="bg-circle bg-circle-1"></div>
-    <div class="bg-circle bg-circle-2"></div>
-    <div class="bg-square bg-square-1"></div>
-    <div class="bg-square bg-square-2"></div>
+    <div class="page-noise" aria-hidden="true"></div>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="scroll-progress" aria-hidden="true"></div>
 
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo">Welcome to my Portfolio</div>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
+    <aside class="social-rail" aria-label="Social links">
+        <a href="https://github.com/udaysagar03" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+        <a href="https://www.linkedin.com/in/upparaudaysagar" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        <a href="mailto:udaysagar0307@gmail.com" aria-label="Email">@</a>
+    </aside>
+
+    <header class="site-header">
+        <div class="brand-mark">US</div>
+        <nav class="top-nav">
+            <a href="#about">About</a>
+            <a href="#projects">Work</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="UPPARA_UDAY_SAGAR_Data_Analytics_RESUME.pdf" class="header-cta" target="_blank" rel="noopener">Resume</a>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <a href="UPPARA_UDAY_SAGAR_Data_Analytics_RESUME.pdf" target="_blank" rel="noopener">Resume</a>
     </nav>
 
-    <section class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1>Hi, I'm <span class="accent">Uppara Uday Sagar</span></h1>
-                <p>Turning data into intelligent decisions and code into real-world impact.</p>
-                <a href="Uppara_Uday_Sagar_Resume.pdf" class="btn" target="_blank" rel="noopener"
-                    download="Uppara_Uday_Sagar_Resume.pdf">View My Resume</a>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <div class="about-intro">
-                    <h3>Crafting Digital Experiences</h3>
-                    <p>I’m Uppara Uday Sagar, a Computer Science (Data Science) graduate passionate about building
-                        data-driven applications, scalable backend systems, and intelligent software.
-
-                        I interned at INCOIS (Government of India), where I worked on the Search and Rescue Aid Tool
-                        (SARAT) used by 100+ operators, improving backend performance, UI responsiveness, and real-time
-                        data integration.
-
-                        I’ve built projects like Freemium2Premium, a machine learning model for predicting user
-                        conversions, and FoundIT, a secure Django-based lost & found platform with verification and
-                        geolocation features.
-
-                        I enjoy turning data into actionable insights using Python, machine learning, and backend
-                        development, and I’m seeking opportunities in Data Science, Data Analysis, and Software
-                        Engineering to build impactful, scalable solutions..</p>
+    <main>
+        <section class="hero section-shell" id="top">
+            <div class="hero-frame">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow">Hello! I'm</p>
+                    <h1>Uppara Uday Sagar</h1>
+                    <p class="hero-role">Data Analyst <span>&bull;</span>Data Engineer<span>&bull;</span> ServiceNow</p>
+                    <p class="hero-summary">
+                        Data Analyst skilled in transforming complex datasets into actionable insights using SQL, Python, and machine learning. Experienced in building predictive models, ETL pipelines, and interactive dashboards to drive data-driven decision-making and product improvements.
+                    <div class="hero-actions">
+                        <a href="#projects" class="button magnetic">Explore Work</a>
+                        <a href="UPPARA_UDAY_SAGAR_Data_Analytics_RESUME.pdf" class="button button-secondary magnetic" target="_blank" rel="noopener">Open Resume</a>
+                    </div>
                 </div>
-                <!-- <div class="about-grid"> -->
-                <!-- <div class="about-card">
-                        <div class="card-icon">💻</div>
-                        <div class="card-title">Development</div>
-                        <div class="card-description">Building scalable web applications with modern frameworks and best
-                            practices</div>
-                        <div class="skills">
-                            <span class="skill">Html</span>
-                            <span class="skill">CSS</span>
-                            <span class="skill">JavaScript</span>
+
+                <div class="hero-stage reveal" data-delay="0.1">
+                    <div class="welcome-figure" aria-hidden="true">
+                        <div class="portrait-glow"></div>
+                        <div class="welcome-orbit orbit-one"></div>
+                        <div class="welcome-orbit orbit-two"></div>
+                        <div class="portrait-frame hero-model-shell">
+                            <div class="frame-aura"></div>
+                            <div class="hero-model-canvas" id="hero-model-canvas" aria-label="3D character model"></div>
+                            <div class="hero-model-status" id="hero-model-status">Loading 3D character...</div>
                         </div>
-                    </div> -->
-                <!-- <div class="about-card">
-                        <div class="card-icon">🎨</div>
-                        <div class="card-title">Design</div>
-                        <div class="card-description">Creating intuitive user interfaces with attention to detail and user experience</div>
-                        <div class="skills">
-                            <span class="skill">CSS</span>
-                            <span class="skill">UI/UX</span>
-                            <span class="skill">Responsive</span>
-                        </div>
-                    </div> -->
-                <!-- <div class="about-card">
-                        <div class="card-icon">📊</div>
-                        <div class="card-title">Data Science</div>
-                        <div class="card-description">Analyzing data and building intelligent solutions using machine
-                            learning</div>
-                        <div class="skills">
-                            <span class="skill">Python</span>
-                            <span class="skill">SQL</span>
-                            <span class="skill">AWS</span>
+                        <div class="hero-badge">
+                            <span>Welcome to my Portfolio</span>
+                            <!-- <strong>Analyst And Builder</strong> -->
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>Featured Projects</h2>
+        <section class="stats-band reveal">
+            <div class="stat-card">
+                <span class="stat-number">3+</span>
+                <span class="stat-label">Analytics and platform automation projects</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">25-30%</span>
+                <span class="stat-label">Client-side load reduced during internship work</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">2</span>
+                <span class="stat-label">ServiceNow certifications with hands-on workflow building</span>
+            </div>
+        </section>
+
+        <section id="about" class="section-shell">
+            <div class="section-heading reveal">
+                <p class="section-tag">About</p>
+                <h2>Data work with product instincts, ServiceNow automation, and clean execution.</h2>
+            </div>
+            <div class="about-layout">
+                <article class="story-card reveal">
+                    <p>
+                        I'm a Computer Science (Data Science) graduate who enjoys building reliable systems around analytics, not just models in isolation. My work spans data cleaning, exploratory analysis, machine learning pipelines, dashboards, and platform workflows that make operations easier to run.
+                    </p>
+                    <p>
+                        During my internship at INCOIS, I improved SARAT(Search And Rescue Tool) workflows by moving heavy logic into the backend, refining interface behavior, and supporting faster rescue-focused operations. I also build ServiceNow process automations that connect approvals, asset workflows, SLA tracking, and operational visibility.
+                    </p>
+                </article>
+
+                <div class="skill-grid">
+                    <article class="glass-card reveal tilt-card">
+                        <span class="card-kicker">Languages</span>
+                        <h3>Python, SQL, Java</h3>
+                        <p>Strong foundations for data wrangling, querying, backend logic, and applied problem solving.</p>
+                    </article>
+                    <article class="glass-card reveal tilt-card" data-delay="0.06">
+                        <span class="card-kicker">Analytics</span>
+                        <h3>EDA, preprocessing, KPI analysis</h3>
+                        <p>Comfortable shaping raw data into decision-ready metrics, patterns, and clear narratives.</p>
+                    </article>
+                    <article class="glass-card reveal tilt-card" data-delay="0.12">
+                        <span class="card-kicker">Libraries</span>
+                        <h3>Pandas, NumPy, Scikit-learn, Streamlit</h3>
+                        <p>Hands-on experience building practical model pipelines and interactive data applications.</p>
+                    </article>
+                    <article class="glass-card reveal tilt-card" data-delay="0.18">
+                        <span class="card-kicker">Tools</span>
+                        <h3>Power BI, Tableau, Excel, Git, Jupyter, ServiceNow</h3>
+                        <p>From reporting to workflow automation and versioned delivery, I like systems that stay reliable and presentation-ready.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-shell">
+            <div class="section-heading reveal">
+                <p class="section-tag">Selected Work</p>
+                <h2>Projects built to predict behavior, explain patterns, automate workflows, and support better decisions.</h2>
+            </div>
             <div class="project-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="FoundITimage.png" alt="Found-It Project" class="project-img">
+                <article class="project-panel reveal tilt-card">
+                    <div class="project-visual project-visual-one">
+                        <img
+                            src="images/india-aqi-dashboard.png"
+                            alt="India Air Quality Intelligence Dashboard showing AQI KPI cards, filters, and pollution insights"
+                            class="project-image"
+                        >
+                        <span class="project-visual-badge">Data Analytics Dashboard</span>
                     </div>
-                    <div class="project-info">
-                        <h3>Found-It</h3>
-                        <p>FoundIT is a web-based platform designed to streamline the process of reporting and
-                            recovering lost and found items in public and private environments such as universities,
-                            public transportation, offices, and events.</p>
+                    <div class="project-body">
+                        <p class="project-index">Project-01</p>
+                        <h3>India Air Quality Intelligence Dashboard</h3>
+                        <p>
+                            Built an interactive analytics dashboard to analyze Government of India AQI records across Indian states, cities, monitoring stations, and pollutants.
+                        </p>
+                        <ul>
+                            <li>Cleaned and transformed raw data.gov.in AQI records with missing values and pollutant rows.</li>
+                            <li>Built state-wise and city-wise rankings, breach classification, and top polluted city insights.</li>
+                            <li>Created pollutant analysis, geographic hotspot views, filters, KPI cards, charts, tabs, and dynamic insights.</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>SQLite</span>
+                            <span>SQL</span>
+                            <span>Plotly</span>
+                            <span>Streamlit</span>
+                        </div>
                         <div class="project-links">
-                            <a href="#" class="btn small">Live Demo</a>
-                            <a href="https://github.com/UdaySagar03/FoundIt" class="btn small secondary">GitHub</a>
+                            <a href="https://github.com/UdaySagar03/india-air-quality-intelligence-dashboard" target="_blank" rel="noopener">GitHub</a>
                         </div>
                     </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="Freemium2Premium.png" alt="Portfolio Project" class="project-img">
-                    </div>
-                    <div class="project-info">
-                        <h3>Freemium2Premium</h3>
-                        <p>Built a machine learning system to identify high-probability converters so marketing teams
-                            can focus only on users who are likely to pay</p>
-                        <div class="project-links">
-                            <a href="#" class="btn small">Live Demo</a>
-                            <a href="#" class="btn small secondary">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                </article>
 
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2>Experience</h2>
-            <div class="experience-grid">
-                <div class="experience-card">
-                    <!-- <div class="experience-icon"></div> -->
-                    <div class="experience-title">Summer Intern</div>
-                    <div class="experience-company">INCOIS - Indian National Centre For Ocean Information Services</div>
-                    <div class="experience-date">April 2025 - June 2025</div>
-                    <div class="experience-description">
-                        Contributed to the development and optimization of SARAT-I (Search and Rescue Aid Tool for
-                        India), a mission-critical web platform supporting real-time maritime search and rescue
-                        operations. Involved in feature enhancement, bug fixing, and performance tuning across both
-                        frontend and backend components.
-                        Participated in code reviews, version control workflows, and deployment processes.
-                        <div class="experience-skills">
-                            <span class="experience-skill">HTML</span>
-                            <span class="experience-skill">CSS</span>
-                            <span class="experience-skill">SQL</span>
-                            <span class="experience-skill">Django</span>
+                <article class="project-panel reveal tilt-card" data-delay="0.08">
+                    <div class="project-visual project-visual-two">
+                        <img
+                            src="Screenshot 2026-04-04 223026.png"
+                            alt="E-shram Workforce Analytics Dashboard overview in Power BI"
+                            class="project-image"
+                        >
+                        <span class="project-visual-badge">Business Intelligence</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-index">Project-02</p>
+                        <h3>E-shram Workforce Analytics Dashboard</h3>
+                        <p>
+                            A BI-focused reporting project that transformed workforce records into interactive filters, demographic summaries, and decision-support views.
+                        </p>
+                        <ul>
+                            <li>Designed ETL and SQL-backed transformation steps for usable reporting layers.</li>
+                            <li>Delivered demographic and regional exploration through interactive dashboard views.</li>
+                            <li>Improved visibility into occupation, age, gender, and workforce distribution trends.</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span>Power BI</span>
+                            <span>SQL</span>
+                            <span>ETL</span>
                         </div>
                     </div>
-                </div>
+                </article>
             </div>
-    </section>
 
-
-    <section id="certifications" class="certifications">
-        <div class="container">
-            <h2>Certifications</h2>
-            <div class="cert-grid">
-                <div class="cert-card">
-                    <h3>Oracle Cloud Infrastructure 2025 Certified Data Science Professional</h3>
-                    <p>Oracle</p>
-                    <a href="https://drive.google.com/file/d/1fL9iTm2IARlz10ltuyjAjzA7TvFBDPZe/view?usp=drive_link"
-                        class="cert-verify" target="_blank">Verify Certificate</a>
+            <div class="project-subsection reveal" data-delay="0.12">
+                <div class="subsection-heading">
+                    <p class="section-tag">ServiceNow Projects</p>
+                    <h3>Workflow automation, approvals, SLA monitoring, and platform dashboards.</h3>
                 </div>
-                <div class="cert-card">
-                    <h3>Certified System Administrator(CSA)& Certified Application Developer(CAD)</h3>
-                    <p>Servicenow</p>
-                    <a href="https://drive.google.com/file/d/1b1P43bbAwWmv5SuRhnensrL2GerLfvK7/view?usp=sharing"
-                        class="cert-verify" target="_blank">CSA</a>
-                    <a href="https://drive.google.com/file/d/1VVmowbZ7Fek6JX6jVmLxosWtRhGmzrIZ/view?usp=drive_link"
-                        class="cert-verify" target="_blank">CAD</a>
-                </div>
-                <div class="cert-card">
-                    <h3>Zscaler Zero Trust Associate (ZTCA)</h3>
-                    <p>Zscaler</p>
-                    <a href="https://verify.skilljar.com/c/6ozcj8trra3s" class="cert-verify" target="_blank">Verify
-                        Certificate</a>
-                </div>
-                <div class="cert-card">
-                    <h3>Data Science For Engineers</h3>
-                    <p>NPTEL</p>
-                    <a href="https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs20/Course/NPTEL25CS20S34700066401404894.pdf"
-                        class="cert-verify" target="_blank">Verify Certificate</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Get In Touch</h2>
-            <div class="contact-box">
-                <div class="contact-details">
-                    <h3>Let's Work Together</h3>
-                    <p>Ready to bring your ideas to life? Let's collaborate and create something amazing together.</p>
-                    <div class="contact-items">
-                        <div class="contact-item">
-                            <span class="contact-icon">📧</span>
-                            <span>udaysagar0307@gmail.com</span>
+                <article class="project-panel service-project tilt-card">
+                    <div class="project-visual project-visual-servicenow">
+                        <img
+                            src="AssetAutoAllocation.png"
+                            alt="ServiceNow asset auto allocation workflow and SLA dashboard"
+                            class="project-image project-image-contain"
+                        >
+                        <span>ServiceNow Automation</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-index">Project-03</p>
+                        <h3>Asset Auto Allocation &amp; SLA Tracking (ServiceNow)</h3>
+                        <p>
+                            This project demonstrates an end-to-end ServiceNow solution for automating asset allocation using Flow Designer, integrating approval workflows, SLA tracking, and real-time dashboard visualization.
+                        </p>
+                        <div class="project-meta-grid">
+                            <div>
+                                <h4>Problem Statement</h4>
+                                <ul>
+                                    <li>Asset allocation is manual and time-consuming.</li>
+                                    <li>Approvals delay request fulfillment.</li>
+                                    <li>No clear visibility into SLA performance.</li>
+                                    <li>SLA breaches are not proactively tracked.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4>Architecture Overview</h4>
+                                <ul>
+                                    <li>Service Catalog (RITM) handles request creation.</li>
+                                    <li>Flow Designer drives automation logic.</li>
+                                    <li>SLA Definition (`task_sla`) tracks time and breaches.</li>
+                                    <li>Platform Analytics provides dashboard visualization.</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="contact-item">
-                            <span class="contact-icon">📱</span>
-                            <span>+91 9951558909</span>
-                        </div>
-                        <div class="contact-item">
-                            <span class="contact-icon">📍</span>
-                            <span>Hyderabad, India</span>
+                        <p>
+                            The solution automates asset allocation based on availability, introduces approval workflows, tracks SLA lifecycle events, and provides a visual dashboard for operational efficiency.
+                        </p>
+                        <div class="project-tags">
+                            <span>ServiceNow</span>
+                            <span>Flow Designer</span>
+                            <span>SLA Tracking</span>
+                            <span>Platform Analytics</span>
                         </div>
                     </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="experience" class="section-shell">
+            <div class="section-heading reveal">
+                <p class="section-tag">Experience</p>
+                <h2>Hands-on engineering experience in a real-world operational environment.</h2>
+            </div>
+            <article class="timeline-card reveal">
+                <div class="timeline-head">
+                    <div>
+                        <p class="timeline-role">Summer Intern</p>
+                        <h3>INCOIS(Indian National Centre for Ocean Information Services)</h3>
+                    </div>
+                    <p class="timeline-date">April 2025 to June 2025 &bull; Hyderabad</p>
                 </div>
-                <div class="contact-3d">
-                    <!-- 3D model removed -->
+                <div class="timeline-body">
+                    <ul>
+                        <li>Enhanced SARAT backend performance using Django to support faster rescue-related workflows.</li>
+                        <li>Refined frontend components to improve usability and real-time information clarity.</li>
+                        <li>Shifted JavaScript-heavy logic to Django and Python, reducing client-side load by about 25-30%.</li>
+                        <li>Collaborated on geospatial calculation and system reliability improvements.</li>
+                    </ul>
+                    <div class="timeline-tags">
+                        <span>Django</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>MySQL</span>
+                        <span>Apache</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="section-shell">
+            <div class="dual-grid">
+                <div class="column-block">
+                    <div class="section-heading reveal">
+                        <p class="section-tag">Certifications</p>
+                        <h2>Verified learning across cloud, data science, and enterprise platforms.</h2>
+                    </div>
+                    <div class="mini-card-grid">
+                        <a class="mini-card reveal tilt-card" data-delay="0.04" href="https://drive.google.com/file/d/1fL9iTm2IARlz10ltuyjAjzA7TvFBDPZe/view?usp=drive_link" target="_blank" rel="noopener">
+                            <span class="card-kicker">Oracle</span>
+                            <h3>OCI 2025 Data Science Professional</h3>
+                        </a>
+                        <a class="mini-card reveal tilt-card" data-delay="0.08" href="https://drive.google.com/file/d/1b1P43bbAwWmv5SuRhnensrL2GerLfvK7/view?usp=sharing" target="_blank" rel="noopener">
+                            <span class="card-kicker">ServiceNow</span>
+                            <h3>Certified System Administrator</h3>
+                        </a>
+                        <a class="mini-card reveal tilt-card" data-delay="0.12" href="https://drive.google.com/file/d/1VVmowbZ7Fek6JX6jVmLxosWtRhGmzrIZ/view?usp=drive_link" target="_blank" rel="noopener">
+                            <span class="card-kicker">ServiceNow</span>
+                            <h3>Certified Application Developer</h3>
+                        </a>
+                        <a class="mini-card reveal tilt-card" data-delay="0.16" href="https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs20/Course/NPTEL25CS20S34700066401404894.pdf" target="_blank" rel="noopener">
+                            <span class="card-kicker">NPTEL</span>
+                            <h3>Data Science For Engineers</h3>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="column-block" id="education">
+                    <div class="section-heading reveal">
+                        <p class="section-tag">Education</p>
+                        <h2>A data science foundation backed by strong academic momentum.</h2>
+                    </div>
+                    <div class="education-stack">
+                        <article class="education-card reveal">
+                            <span class="edu-year">2022 - 2026</span>
+                            <h3>Vignana Bharathi Institute of Technology</h3>
+                            <p>B.Tech in Computer Science (Data Science)</p>
+                            <strong>CGPA: 7.34</strong>
+                        </article>
+                        <article class="education-card reveal" data-delay="0.08">
+                            <span class="edu-year">2020 - 2022</span>
+                            <h3>Narayana Junior College, Hyderabad</h3>
+                            <p>Intermediate MPC</p>
+                            <strong>Percentage: 90%</strong>
+                        </article>
+                    </div>
                 </div>
             </div>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/upparaudaysagar" class="social-link">LinkedIn</a>
-                <a href="https://github.com/udaysagar03" class="social-link">GitHub</a>
-                <a href="mailto:udaysagar0307@gmail.com" class="social-link">Email</a>
+        </section>
+
+        <section id="contact" class="section-shell contact-shell">
+            <div class="contact-panel reveal">
+                <div class="contact-copy">
+                    <p class="section-tag">Contact</p>
+                    <h2>Let's build analytics experiences that people can trust.</h2>
+                    <p>
+                        If you need someone who can move between data preparation, modeling, dashboards, ServiceNow workflows, and product-minded delivery, I'd love to connect.
+                    </p>
+                </div>
+                <div class="contact-list">
+                    <a href="mailto:udaysagar0307@gmail.com">udaysagar0307@gmail.com</a>
+                    <a href="tel:+919951558909">+91 9951558909</a>
+                    <span>Hyderabad, India</span>
+                    <a href="https://www.linkedin.com/in/upparaudaysagar" target="_blank" rel="noopener">LinkedIn Profile</a>
+                    <a href="https://github.com/udaysagar03" target="_blank" rel="noopener">GitHub Profile</a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <section id="thank-you" class="thank-you">
-        <div class="container">
-            <div class="thank-you-content">
-                <h2 class="thank-you-text">Thank You!</h2>
-                <p class="thank-you-sub">Thank you for visiting my portfolio. I hope you enjoyed exploring my work as
-                    much as I enjoyed creating it.</p>
-                <div class="thank-you-icon">✨</div>
-            </div>
-        </div>
-    </section>
-
-    <script>
-        // Create dark animated particles
-        function createDarkParticle() {
-            const particle = document.createElement('div');
-            const types = ['dot', 'line', 'diamond'];
-            const type = types[Math.floor(Math.random() * types.length)];
-
-            particle.className = `dark-particle ${type}`;
-
-            if (type === 'dot') {
-                const size = Math.random() * 25 + 8;
-                particle.style.width = particle.style.height = size + 'px';
-                particle.style.left = Math.random() * 100 + 'vw';
-            } else if (type === 'line') {
-                particle.style.width = Math.random() * 80 + 40 + 'px';
-                particle.style.top = Math.random() * 100 + 'vh';
-            } else {
-                const size = Math.random() * 20 + 6;
-                particle.style.width = particle.style.height = size + 'px';
-                particle.style.left = Math.random() * 100 + 'vw';
-            }
-
-            particle.style.animationDuration = (Math.random() * 5 + 3) + 's';
-            document.body.appendChild(particle);
-
-            setTimeout(() => {
-                particle.remove();
-            }, 8000);
-        }
-
-        setInterval(createDarkParticle, 400);
-
-        // Mobile menu toggle
-        const hamburger = document.querySelector('.hamburger');
-        const navMenu = document.querySelector('.nav-menu');
-
-        if (hamburger) {
-            hamburger.addEventListener('click', () => {
-                hamburger.classList.toggle('active');
-                navMenu.classList.toggle('active');
-            });
-        }
-
-        // Close mobile menu when clicking on a link
-        document.querySelectorAll('.nav-menu a').forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.classList.remove('active');
-                navMenu.classList.remove('active');
-            });
-        });
-
-        // Close mobile menu when clicking outside
-        document.addEventListener('click', (e) => {
-            if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
-                hamburger.classList.remove('active');
-                navMenu.classList.remove('active');
-            }
-        });
-
-        // Smooth scroll animation on page load
-        document.addEventListener('DOMContentLoaded', function () {
-            // Animate sections on scroll
-            const observerOptions = {
-                threshold: 0.1,
-                rootMargin: '0px 0px -50px 0px'
-            };
-
-            const observer = new IntersectionObserver(function (entries) {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('animate');
-
-                        // Animate cards with staggered delay
-                        const cards = entry.target.querySelectorAll('.about-card, .project-card, .cert-card');
-                        cards.forEach((card, index) => {
-                            card.style.setProperty('--delay', `${index * 0.2}s`);
-                            setTimeout(() => {
-                                card.classList.add('animate');
-                            }, index * 200);
-                        });
-                    }
-                });
-            }, observerOptions);
-
-            // Observe all sections
-            document.querySelectorAll('section').forEach(section => {
-                observer.observe(section);
-            });
-
-            // Smooth scroll for navigation links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    const target = document.querySelector(this.getAttribute('href'));
-                    if (target) {
-                        target.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start'
-                        });
-                    }
-                });
-            });
-
-            // Initialize EmailJS
-            emailjs.init('YOUR_PUBLIC_KEY'); // Replace with your EmailJS public key
-
-            // Form submission
-            const contactForm = document.getElementById('contactForm');
-            if (contactForm) {
-                contactForm.addEventListener('submit', function (e) {
-                    e.preventDefault();
-
-                    const submitBtn = this.querySelector('button[type="submit"]');
-                    submitBtn.textContent = 'Sending...';
-                    submitBtn.disabled = true;
-
-                    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
-                        .then(function () {
-                            alert('Message sent successfully!');
-                            contactForm.reset();
-                        }, function (error) {
-                            alert('Failed to send message. Please try again.');
-                            console.log('Error:', error);
-                        })
-                        .finally(function () {
-                            submitBtn.textContent = 'Send Message';
-                            submitBtn.disabled = false;
-                        });
-                });
-            }
-        });
-    </script>
-
-    <script>
-        // Hide header on scroll down, show on scroll up
-        (function () {
-            const navbar = document.querySelector('.navbar');
-            if (!navbar) return;
-
-            let lastScroll = window.scrollY || 0;
-
-            window.addEventListener('scroll', () => {
-                const current = window.scrollY || 0;
-                if (current > lastScroll && current > 100) {
-                    navbar.classList.add('hidden');
-                } else {
-                    navbar.classList.remove('hidden');
-                }
-                lastScroll = current;
-            }, { passive: true });
-        })();
-    </script>
-
-    <!-- Model-viewer debug/fetch script removed -->
-
-    <!-- <footer class="thank-you">
-        <div class="container">
-            <h2 class="thank-you-text">Thank You!</h2>
-        </div>
-    </footer> -->
+    <script src="script.js"></script>
+    <script type="module" src="hero-model.js"></script>
 </body>
-
 </html>
