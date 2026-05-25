@@ -156,12 +156,13 @@
                         <p class="project-index">Project-01</p>
                         <h3>India Air Quality Intelligence Dashboard</h3>
                         <p>
-                            Built an interactive analytics dashboard to analyze Government of India AQI records across Indian states, cities, monitoring stations, and pollutants.
+                            An interactive dashboard that turns Government of India AQI records into a decision view for identifying pollution hotspots, pollutant patterns, and breach severity across states and cities.
                         </p>
                         <ul>
-                            <li>Cleaned and transformed raw data.gov.in AQI records with missing values and pollutant rows.</li>
-                            <li>Built state-wise and city-wise rankings, breach classification, and top polluted city insights.</li>
-                            <li>Created pollutant analysis, geographic hotspot views, filters, KPI cards, charts, tabs, and dynamic insights.</li>
+                            <li><strong>Problem solved:</strong> Raw AQI records were difficult to compare across locations, monitoring stations, pollutants, and time-based severity levels.</li>
+                            <li><strong>Analysis performed:</strong> Cleaned missing pollutant rows, normalized location fields, ranked states and cities, classified AQI breaches, and compared pollutant-level contributions.</li>
+                            <li><strong>Insights found:</strong> The dashboard highlights top polluted cities, recurring geographic hotspots, severe breach zones, and pollutants driving poor air quality.</li>
+                            <li><strong>Why SQL mattered:</strong> SQL logic handled grouping, filtering, breach classification, and ranking so the dashboard shows reliable insights instead of surface-level charts.</li>
                         </ul>
                         <div class="project-tags">
                             <span>Python</span>
@@ -190,12 +191,13 @@
                         <p class="project-index">Project-02</p>
                         <h3>E-shram Workforce Analytics Dashboard</h3>
                         <p>
-                            A BI-focused reporting project that transformed workforce records into interactive filters, demographic summaries, and decision-support views.
+                            A workforce analytics dashboard that converts E-shram registration data into a clearer view of demographic, regional, and occupation-level labor patterns.
                         </p>
                         <ul>
-                            <li>Designed ETL and SQL-backed transformation steps for usable reporting layers.</li>
-                            <li>Delivered demographic and regional exploration through interactive dashboard views.</li>
-                            <li>Improved visibility into occupation, age, gender, and workforce distribution trends.</li>
+                            <li><strong>Problem solved:</strong> Workforce records needed to be organized into decision-ready segments for understanding who is registered, where they are located, and what work categories dominate.</li>
+                            <li><strong>Analysis performed:</strong> Built ETL steps, structured reporting tables, and analyzed occupation, age, gender, and regional distribution across interactive Power BI views.</li>
+                            <li><strong>Insights found:</strong> The dashboard makes it easier to spot concentrated worker groups, demographic skews, high-volume regions, and occupation trends that can guide planning.</li>
+                            <li><strong>Why SQL mattered:</strong> SQL-backed transformations created consistent categories and clean aggregations, reducing dashboard ambiguity and making comparisons trustworthy.</li>
                         </ul>
                         <div class="project-tags">
                             <span>Power BI</span>
@@ -224,30 +226,30 @@
                         <p class="project-index">Project-03</p>
                         <h3>Asset Auto Allocation &amp; SLA Tracking (ServiceNow)</h3>
                         <p>
-                            This project demonstrates an end-to-end ServiceNow solution for automating asset allocation using Flow Designer, integrating approval workflows, SLA tracking, and real-time dashboard visualization.
+                            A ServiceNow operations focused on reducing manual asset assignment delays while improving approval visibility, SLA tracking, and fulfillment accountability.
                         </p>
                         <div class="project-meta-grid">
                             <div>
-                                <h4>Problem Statement</h4>
+                                <h4>Problem Solved</h4>
                                 <ul>
-                                    <li>Asset allocation is manual and time-consuming.</li>
-                                    <li>Approvals delay request fulfillment.</li>
-                                    <li>No clear visibility into SLA performance.</li>
-                                    <li>SLA breaches are not proactively tracked.</li>
+                                    <li>Manual allocation slowed request fulfillment.</li>
+                                    <li>Approval delays were hard to trace.</li>
+                                    <li>SLA risk was not visible early enough.</li>
+                                    <li>Teams lacked a single operational dashboard.</li>
                                 </ul>
                             </div>
                             <div>
-                                <h4>Architecture Overview</h4>
+                                <h4>Analysis Performed</h4>
                                 <ul>
-                                    <li>Service Catalog (RITM) handles request creation.</li>
-                                    <li>Flow Designer drives automation logic.</li>
-                                    <li>SLA Definition (`task_sla`) tracks time and breaches.</li>
-                                    <li>Platform Analytics provides dashboard visualization.</li>
+                                    <li>Mapped request flow from catalog item to RITM.</li>
+                                    <li>Defined approval and allocation decision points.</li>
+                                    <li>Tracked SLA lifecycle using task_sla records.</li>
+                                    <li>Measured fulfillment status through Platform Analytics.</li>
                                 </ul>
                             </div>
                         </div>
                         <p>
-                            The solution automates asset allocation based on availability, introduces approval workflows, tracks SLA lifecycle events, and provides a visual dashboard for operational efficiency.
+                            The key insight was that fulfillment performance depends on both asset availability and process timing. Flow Designer logic mattered because it connected approvals, availability checks, allocation actions, and SLA events into one traceable workflow instead of leaving them as disconnected manual steps.
                         </p>
                         <div class="project-tags">
                             <span>ServiceNow</span>

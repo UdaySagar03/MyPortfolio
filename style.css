@@ -1064,6 +1064,11 @@ section.section-shell {
     margin-top: 0.8rem;
 }
 
+.project-body strong {
+    color: var(--text);
+    font-weight: 800;
+}
+
 .project-body li::before,
 .timeline-body li::before {
     content: "";
